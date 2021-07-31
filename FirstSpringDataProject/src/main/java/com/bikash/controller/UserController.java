@@ -8,6 +8,7 @@ public class UserController {
 	@RequestMapping("/")
 	public String homePage() {
 		System.out.println("From User controller class");
+		
 		return "home.jsp";
 	}
 
